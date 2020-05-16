@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPCBasic", "gRPCBasic\gRPCBasic.csproj", "{1D90BA3E-C4ED-49C2-A8D0-1B044BDD214C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPCServer", "gRPCServer\gRPCServer.csproj", "{D333C66B-A073-4AAE-8665-56D17FBC0139}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1D90BA3E-C4ED-49C2-A8D0-1B044BDD214C} = {1D90BA3E-C4ED-49C2-A8D0-1B044BDD214C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPCClient", "gRPCClient\gRPCClient.csproj", "{58D5B496-C755-497E-A249-D1D8E6721A14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D90BA3E-C4ED-49C2-A8D0-1B044BDD214C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D90BA3E-C4ED-49C2-A8D0-1B044BDD214C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D90BA3E-C4ED-49C2-A8D0-1B044BDD214C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D90BA3E-C4ED-49C2-A8D0-1B044BDD214C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D333C66B-A073-4AAE-8665-56D17FBC0139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D333C66B-A073-4AAE-8665-56D17FBC0139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D333C66B-A073-4AAE-8665-56D17FBC0139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D333C66B-A073-4AAE-8665-56D17FBC0139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D5B496-C755-497E-A249-D1D8E6721A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D5B496-C755-497E-A249-D1D8E6721A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D5B496-C755-497E-A249-D1D8E6721A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D5B496-C755-497E-A249-D1D8E6721A14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E518E83-A64D-449E-8D90-80052D97DDF4}
+	EndGlobalSection
+EndGlobal
