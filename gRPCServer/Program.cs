@@ -22,8 +22,8 @@ namespace gRPCServer
         {
             Server server = new Server
             {
-                Services = { Greeter.BindService(new GreeterImpl()) }, //Servicios disponibles generados por proto
-                Ports = { new ServerPort("localhost", Port, ServerCredentials.Insecure) } //direccion, puerto y seguridad
+                Services = { Greeter.BindService(new GreeterImpl()) }, //Bindea los metodos del codigo "Impl" con los servicio generado por proto (En este caso con el service Greeter de proto)
+                Ports = { new ServerPort("localhost", Port, ServerCredentials.Insecure) } //asignacion de direccion, puerto y seguridad
             };
             server.Start(); 
 
